@@ -1,0 +1,17 @@
+CompileFlags:
+  Add:
+    - --target=arm-none-eabi
+    - -mcpu=cortex-m3
+    - -mthumb
+    - -nostdlib
+    - -ffreestanding
+    - -DSTM32F100xB
+    - -DUSE_HAL_DRIVER
+    - -I/home/gustavojr/Programação/STM32/pisca-botão-stm/inc
+    - -I/home/gustavojr/Programação/STM32/pisca-botão-stm/Drivers/CMSIS/Include
+    - -I/home/gustavojr/Programação/STM32/pisca-botão-stm/Drivers/CMSIS/Device/ST/STM32F1xx/Include
+    - -I/home/gustavojr/Programação/STM32/pisca-botão-stm/Drivers/STM32F1xx_HAL_Driver/Inc
+  Remove:
+    - -fno-exceptions
+    - -fno-unwind-tables
+    - -fno-asynchronous-unwind-tables
