@@ -1,0 +1,135 @@
+     VMA      LMA     Size Align Out     In      Symbol
+ 8000000  8000000     1364     4 .text
+ 8000000  8000000      130     1         obj/startup.o:(.isr_vector)
+ 8000001  8000001        0     1                 _start
+ 8000130  8000130      180     4         obj/main.o:(.text)
+ 8000130  8000130        0     1                 $t
+ 8000131  8000131       74     1                 USART1_IRQHandler
+ 80001a5  80001a5       18     1                 TIM2_IRQHandler
+ 80001bd  80001bd       f4     1                 main
+ 80002b0  80002b0        0     4         obj/startup.o:(.text)
+ 80002b0  80002b0       40     4         obj/startup.o:(.text.Reset_Handler)
+ 80002b0  80002b0        0     1                 $t
+ 80002b1  80002b1        0     1                 Reset_Handler
+ 80002b6  80002b6        0     1                 copy_data
+ 80002c4  80002c4        0     1                 copy_data_end
+ 80002ca  80002ca        0     1                 clear_bss
+ 80002d4  80002d4        0     1                 clear_bss_end
+ 80002d8  80002d8        0     1                 .infinite
+ 80002dc  80002dc        0     1                 $d
+ 80002f0  80002f0       c4     4         obj/scripts.o:(.text)
+ 80002f0  80002f0        0     1                 $t
+ 80002f1  80002f1       34     1                 gpioAOutputSet
+ 8000325  8000325       34     1                 gpioBOutputSet
+ 8000359  8000359       34     1                 gpioCOutputSet
+ 800038d  800038d       24     1                 delayBurro
+ 80003b1  80003b1        4     1                 sleep_ms
+ 80003b4  80003b4       68     4         obj/system_stm32f1xx.o:(.text)
+ 80003b4  80003b4        0     1                 $t
+ 80003b5  80003b5        2     1                 SystemInit
+ 80003b7  80003b7       66     1                 SystemCoreClockUpdate
+ 800041c  800041c      200     4         obj/hal/stm32f1xx_hal.o:(.text)
+ 800041c  800041c        0     1                 $t
+ 800041d  800041d       18     1                 HAL_Init
+ 8000435  8000435       52     1                 HAL_InitTick
+ 8000487  8000487        2     1                 HAL_MspInit
+ 8000489  8000489       22     1                 HAL_DeInit
+ 80004ab  80004ab        2     1                 HAL_MspDeInit
+ 80004ad  80004ad       1a     1                 HAL_IncTick
+ 80004c7  80004c7        c     1                 HAL_GetTick
+ 80004d3  80004d3        c     1                 HAL_GetTickPrio
+ 80004df  80004df       2e     1                 HAL_SetTickFreq
+ 800050d  800050d        c     1                 HAL_GetTickFreq
+ 8000519  8000519       28     1                 HAL_Delay
+ 8000541  8000541       12     1                 HAL_SuspendTick
+ 8000553  8000553       12     1                 HAL_ResumeTick
+ 8000565  8000565        a     1                 HAL_GetHalVersion
+ 800056f  800056f        e     1                 HAL_GetREVID
+ 800057d  800057d       10     1                 HAL_GetDEVID
+ 800058d  800058d        c     1                 HAL_GetUIDw0
+ 8000599  8000599        c     1                 HAL_GetUIDw1
+ 80005a5  80005a5        c     1                 HAL_GetUIDw2
+ 80005b1  80005b1       12     1                 HAL_DBGMCU_EnableDBGSleepMode
+ 80005c3  80005c3       12     1                 HAL_DBGMCU_DisableDBGSleepMode
+ 80005d5  80005d5       12     1                 HAL_DBGMCU_EnableDBGStopMode
+ 80005e7  80005e7       12     1                 HAL_DBGMCU_DisableDBGStopMode
+ 80005f9  80005f9       12     1                 HAL_DBGMCU_EnableDBGStandbyMode
+ 800060b  800060b       12     1                 HAL_DBGMCU_DisableDBGStandbyMode
+ 800061c  800061c      220     4         obj/hal/stm32f1xx_hal_cortex.o:(.text)
+ 800061c  800061c        0     1                 $t
+ 800061d  800061d       20     1                 HAL_NVIC_SetPriorityGrouping
+ 800063d  800063d       58     1                 HAL_NVIC_SetPriority
+ 8000695  8000695       1e     1                 HAL_NVIC_EnableIRQ
+ 80006b3  80006b3       26     1                 HAL_NVIC_DisableIRQ
+ 80006d9  80006d9        8     1                 HAL_NVIC_SystemReset
+ 80006e1  80006e1       24     1                 __NVIC_SystemReset
+ 8000705  8000705       2c     1                 HAL_SYSTICK_Config
+ 8000731  8000731       10     1                 HAL_NVIC_GetPriorityGrouping
+ 8000741  8000741       5a     1                 HAL_NVIC_GetPriority
+ 800079b  800079b       1e     1                 HAL_NVIC_SetPendingIRQ
+ 80007b9  80007b9       24     1                 HAL_NVIC_GetPendingIRQ
+ 80007dd  80007dd       1e     1                 HAL_NVIC_ClearPendingIRQ
+ 80007fb  80007fb       24     1                 HAL_NVIC_GetActive
+ 800081f  800081f       18     1                 HAL_SYSTICK_CLKSourceConfig
+ 8000837  8000837        4     1                 HAL_SYSTICK_IRQHandler
+ 800083b  800083b        2     1                 HAL_SYSTICK_Callback
+ 800083c  800083c      37c     4         obj/hal/stm32f1xx_hal_gpio.o:(.text)
+ 800083c  800083c        0     1                 $t
+ 800083d  800083d      1fa     1                 HAL_GPIO_Init
+ 8000898  8000898        0     1                 $d
+ 800089c  800089c        0     1                 $t
+ 8000a37  8000a37      11e     1                 HAL_GPIO_DeInit
+ 8000b55  8000b55        a     1                 HAL_GPIO_ReadPin
+ 8000b5f  8000b5f        a     1                 HAL_GPIO_WritePin
+ 8000b69  8000b69       10     1                 HAL_GPIO_TogglePin
+ 8000b79  8000b79       28     1                 HAL_GPIO_LockPin
+ 8000ba1  8000ba1       16     1                 HAL_GPIO_EXTI_IRQHandler
+ 8000bb7  8000bb7        2     1                 HAL_GPIO_EXTI_Callback
+ 8000bb8  8000bb8      76a     4         obj/hal/stm32f1xx_hal_rcc.o:(.text)
+ 8000bb8  8000bb8        0     1                 $t
+ 8000bb9  8000bb9       ee     1                 HAL_RCC_DeInit
+ 8000ca7  8000ca7      386     1                 HAL_RCC_OscConfig
+ 800102d  800102d      10e     1                 HAL_RCC_ClockConfig
+ 800113b  800113b       56     1                 HAL_RCC_GetSysClockFreq
+ 8001191  8001191       50     1                 HAL_RCC_MCOConfig
+ 80011e1  80011e1        c     1                 HAL_RCC_EnableCSS
+ 80011ed  80011ed        c     1                 HAL_RCC_DisableCSS
+ 80011f9  80011f9        c     1                 HAL_RCC_GetHCLKFreq
+ 8001205  8001205       26     1                 HAL_RCC_GetPCLK1Freq
+ 800122b  800122b       26     1                 HAL_RCC_GetPCLK2Freq
+ 8001251  8001251       7c     1                 HAL_RCC_GetOscConfig
+ 80012cd  80012cd       36     1                 HAL_RCC_GetClockConfig
+ 8001303  8001303       1e     1                 HAL_RCC_NMI_IRQHandler
+ 8001321  8001321        2     1                 HAL_RCC_CSSCallback
+ 8001322  8001322        a     1         <internal>:(.rodata.str1.1)
+ 800132c  800132c       18     1         obj/system_stm32f1xx.o:(.rodata)
+ 800132c  800132c       10     1                 AHBPrescTable
+ 800133c  800133c        8     1                 APBPrescTable
+ 8001344  8001344       20     1         <internal>:(.rodata.cst16)
+ 8001364  8001364        0     1         _etext = .
+20000000  8001364        c     4 .data
+20000000  8001364        0     1         _sdata = .
+20000000  8001364        4     4         obj/system_stm32f1xx.o:(.data)
+20000000  8001364        4     1                 SystemCoreClock
+20000004  8001368        8     4         obj/hal/stm32f1xx_hal.o:(.data)
+20000004  8001368        4     1                 uwTickPrio
+20000008  800136c        4     1                 uwTickFreq
+2000000c  8001370        0     1         _edata = .
+2000000c  8001370       8c     4 .bss
+2000000c  8001370        0     1         _sbss = .
+2000000c  8001370       88     4         obj/main.o:(.bss)
+2000000c  8001370       88     1                 usart_rx
+20000094  80013f8        4     4         obj/hal/stm32f1xx_hal.o:(.bss)
+20000094  80013f8        4     1                 uwTick
+20000098  80013fc        0     1         _ebss = .
+20000098  80013fc        0     1 _stack_top = 0x20005000
+       0        0       3e     1 .comment
+       0        0       3e     1         <internal>:(.comment)
+       0        0       41     1 .ARM.attributes
+       0        0       41     1         obj/main.o:(.ARM.attributes)
+       0        0      720     4 .symtab
+       0        0      720     4         <internal>:(.symtab)
+       0        0       45     1 .shstrtab
+       0        0       45     1         <internal>:(.shstrtab)
+       0        0      710     1 .strtab
+       0        0      710     1         <internal>:(.strtab)

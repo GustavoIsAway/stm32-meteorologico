@@ -3,10 +3,7 @@
 #define SCRIPTS_H
 #include <stdint.h>
 
-typedef enum {
-  TRUE = 1,
-  FALSE = 0
-} bl;
+#define force_inline inline __attribute__((always_inline))
 
 #define PERIPH_BASE       0x40000000UL
 #define APB2PERIPH_BASE   (PERIPH_BASE + 0x10000)

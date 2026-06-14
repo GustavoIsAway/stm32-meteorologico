@@ -53,7 +53,7 @@ _start:
   .word 0                   /* 41 IRQ25 TIM1_UP */
   .word 0                   /* 42 IRQ26 TIM1_TRG_COM */
   .word 0                   /* 43 IRQ27 TIM1_CC */
-  .word Timer2_IRQHandler   /* 44 IRQ28 TIM2 */
+  .word 0 //TIM2_IRQHandler     /* 44 IRQ28 TIM2 */
   .word 0                   /* 45 IRQ29 TIM3 */
   .word 0                   /* 46 IRQ30 TIM4 */
   .word 0                   /* 47 IRQ31 I2C1_EV */
@@ -62,7 +62,7 @@ _start:
   .word 0                   /* 50 IRQ34 I2C2_ER */
   .word 0                   /* 51 IRQ35 SPI1 */
   .word 0                   /* 52 IRQ36 SPI2 */
-  .word 0                   /* 53 IRQ37 USART1 */
+  .word USART1_IRQHandler   /* 53 IRQ37 USART1 */
   .word 0                   /* 54 IRQ38 USART2 */
   .word 0                   /* 55 IRQ39 USART3 */
   .word 0                   /* 56 IRQ40 EXTI15_10 */
